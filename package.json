@@ -1,0 +1,21 @@
+{
+  "name": "calculatorbash",
+  "version": "1.0.0",
+  "description": "Calculadora hecha en nodeJS",
+  "main": "./bin/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "calculadora",
+    "nodejs"
+  ],
+  "author": "Anggiela Dorador",
+  "license": "ISC",
+  "bin": {
+    "calculadora": "./bin/index.js"
+  },
+  "dependencies": {
+    "yargs": "^15.0.2"
+  }
+}
